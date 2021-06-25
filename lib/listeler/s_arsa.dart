@@ -1,14 +1,15 @@
-import 'package:evimcepte/gorusme_talebi.dart';
+
+import 'package:evimcepte/veriler/arsa_1.dart';
 import 'package:flutter/material.dart';
 
-class Arsa extends StatelessWidget {
+class Sarsa extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScrollView(
       slivers: [
         SliverAppBar(
           flexibleSpace: FlexibleSpaceBar(
-            title: Text("Arsalar"),
+            title: Text("Satılık Arsalar"),
             centerTitle: true,
             background: Image.asset(
               "assets/images/diger_resimler/arsagenel.jpg",
@@ -53,10 +54,10 @@ class Arsa extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => GorusmeTalebi()),
+                              builder: (context) => Arsa1()),
                         );
                       },
-                      child: Text("Görüşme Talep Et"),
+                      child: Text("İNCELE"),
                     ),
                   ],
                 )
@@ -95,10 +96,10 @@ class Arsa extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => GorusmeTalebi()),
+                              builder: (context) => Arsa1()),
                         );
                       },
-                      child: Text("Görüşme Talep Et"),
+                      child: Text("İNCELE"),
                     ),
                   ],
                 )
@@ -137,10 +138,10 @@ class Arsa extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => GorusmeTalebi()),
+                              builder: (context) => Arsa1()),
                         );
                       },
-                      child: Text("Görüşme Talep Et"),
+                      child: Text("İNCELE"),
                     ),
                   ],
                 )
@@ -179,10 +180,10 @@ class Arsa extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => GorusmeTalebi()),
+                              builder: (context) => Arsa1()),
                         );
                       },
-                      child: Text("Görüşme Talep Et"),
+                      child: Text("İNCELE"),
                     ),
                   ],
                 )
@@ -221,10 +222,10 @@ class Arsa extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => GorusmeTalebi()),
+                              builder: (context) => Arsa1()),
                         );
                       },
-                      child: Text("Görüşme Talep Et"),
+                      child: Text("İNCELE"),
                     ),
                   ],
                 )
@@ -263,10 +264,10 @@ class Arsa extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => GorusmeTalebi()),
+                              builder: (context) => Arsa1()),
                         );
                       },
-                      child: Text("Görüşme Talep Et"),
+                      child: Text("İNCELE"),
                     ),
                   ],
                 )
@@ -305,10 +306,10 @@ class Arsa extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => GorusmeTalebi()),
+                              builder: (context) => Arsa1()),
                         );
                       },
-                      child: Text("Görüşme Talep Et"),
+                      child: Text("İNCELE"),
                     ),
                   ],
                 )

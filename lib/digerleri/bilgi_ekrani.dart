@@ -1,4 +1,4 @@
-import 'package:evimcepte/kategoriler.dart';
+import 'package:evimcepte/kategori_ekranlari/kategoriler.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -76,7 +76,7 @@ class BilgiEkrani extends StatelessWidget {
                   ],
                 ),
                 Container(
-                  height: 100,
+                  height: 30,
                 ),
                 FloatingActionButton(
                   onPressed: () {

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "812796065933",
+    "project_id": "evimcepte-bb548",
+    "storage_bucket": "evimcepte-bb548.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812796065933:android:2d7a6777ba3b2dbf0fcac4",
+        "android_client_info": {
+          "package_name": "com.nisanur.evimcepte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812796065933-bf70mkua0f9me1hlqtc794prorg441iu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4qxbmMxFLO9IN2ybrfVi4m_N4GTKnyvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812796065933-bf70mkua0f9me1hlqtc794prorg441iu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

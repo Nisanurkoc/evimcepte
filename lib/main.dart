@@ -1,4 +1,6 @@
-import 'package:evimcepte/giris.dart';
+import 'package:evimcepte/digerleri/giris.dart';
+import 'package:evimcepte/model/ev.dart';
+import 'package:evimcepte/utils/db_helper.dart';
 import 'package:flutter/material.dart';
 
 void main() {

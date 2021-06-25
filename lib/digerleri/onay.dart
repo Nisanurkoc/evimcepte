@@ -1,7 +1,10 @@
-import 'package:evimcepte/bilgi_ekrani.dart';
-import 'package:evimcepte/giris.dart';
+
+
+import 'package:evimcepte/digerleri/bilgi_ekrani.dart';
+import 'package:evimcepte/digerleri/giris.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
 
 class Onay extends StatelessWidget {
   @override
@@ -15,6 +18,7 @@ class Onay extends StatelessWidget {
         ),
       ),
       body: Column(children: [
+
         Container(
           margin: EdgeInsets.only(
             top: 40,
@@ -78,3 +82,16 @@ class Onay extends StatelessWidget {
     );
   }
 }
+
+/*void showAlert(BuildContext context){
+  AlertDialog alertDialog;
+    alertDialog= AlertDialog(title: Text("Görüşme talebiniz onaylandı."),
+      content: Text("Size en kısa zamanda dönüş yapılacaktır."),
+      backgroundColor: Colors.amber[50],
+      shape: CircleBorder(),);
+  showDialog(context: context ,builder: (_)=> AlertDialog());
+}
+*/
+
+
+

@@ -1,9 +1,14 @@
-import 'package:evimcepte/apartman.dart';
-import 'package:evimcepte/arsa.dart';
-import 'package:evimcepte/mustakil.dart';
+import 'package:evimcepte/listeler/k_apartman.dart';
+import 'package:evimcepte/listeler/k_mustakil.dart';
 import 'package:flutter/material.dart';
+class Kkategoriler extends StatefulWidget {
+  const Kkategoriler({Key? key}) : super(key: key);
 
-class Kategoriler extends StatelessWidget {
+  @override
+  _KkategorilerState createState() => _KkategorilerState();
+}
+
+class _KkategorilerState extends State<Kkategoriler> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,7 +31,7 @@ class Kategoriler extends StatelessWidget {
             ),
             color: Colors.amber[50],
             child: Text(
-              "KATEGORİLER",
+              "KİRALIK",
               style: TextStyle(
                 fontSize: 20,
                 color: Colors.brown[900],
@@ -43,17 +48,17 @@ class Kategoriler extends StatelessWidget {
               children: [
                 CircleAvatar(
                   backgroundImage: AssetImage(
-                      "assets/images/diger_resimler/mustakilgenel.jpg"),
+                      "assets/images/diger_resimler/apartmangenel.jpg"),
                 ),
                 TextButton(
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => Mustakil()),
+                      MaterialPageRoute(builder: (context) => Kapartman(),),
                     );
                   },
                   child: Text(
-                    "MÜSTAKİL EVLER",
+                    "APARTMAN DAİRELERİ",
                     style: TextStyle(
                       fontSize: 30,
                       color: Colors.deepOrange[900],
@@ -73,17 +78,17 @@ class Kategoriler extends StatelessWidget {
               children: [
                 CircleAvatar(
                   backgroundImage: AssetImage(
-                      "assets/images/diger_resimler/apartmangenel.jpg"),
+                      "assets/images/diger_resimler/mustakilgenel.jpg"),
                 ),
                 TextButton(
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => Apartman()),
+                      MaterialPageRoute(builder: (context) => Kmustakil(),),
                     );
                   },
                   child: Text(
-                    "APARTMAN DAİRELERİ",
+                    "MÜSTAKİL EVLER",
                     style: TextStyle(
                       fontSize: 30,
                       color: Colors.deepOrange[900],
@@ -93,36 +98,7 @@ class Kategoriler extends StatelessWidget {
               ],
             ),
           ),
-          Container(
-            margin: EdgeInsets.only(
-              top: 20,
-              bottom: 200,
-            ),
-            color: Colors.amber[600],
-            child: Row(
-              children: [
-                CircleAvatar(
-                  backgroundImage:
-                      AssetImage("assets/images/diger_resimler/arsagenel.jpg"),
-                ),
-                TextButton(
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => Arsa()),
-                    );
-                  },
-                  child: Text(
-                    "ARSALAR",
-                    style: TextStyle(
-                      fontSize: 30,
-                      color: Colors.deepOrange[900],
-                    ),
-                  ),
-                )
-              ],
-            ),
-          ),
+
         ],
       ),
     );

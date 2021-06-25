@@ -1,4 +1,4 @@
-import 'package:evimcepte/onay.dart';
+import 'package:evimcepte/digerleri/onay.dart';
 import 'package:flutter/material.dart';
 
 class GorusmeTalebi extends StatefulWidget {

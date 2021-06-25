@@ -1,5 +1,5 @@
-import 'package:evimcepte/bilgi_ekrani.dart';
-import 'package:evimcepte/kaydol.dart';
+import 'package:evimcepte/digerleri/bilgi_ekrani.dart';
+import 'package:evimcepte/digerleri/kaydol.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

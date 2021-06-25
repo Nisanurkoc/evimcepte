@@ -1,14 +1,15 @@
-import 'package:evimcepte/gorusme_talebi.dart';
+import 'package:evimcepte/digerleri/gorusme_talebi.dart';
+import 'package:evimcepte/veriler/mustakil_1.dart';
 import 'package:flutter/material.dart';
 
-class Mustakil extends StatelessWidget {
+class Kmustakil extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScrollView(
       slivers: [
         SliverAppBar(
           flexibleSpace: FlexibleSpaceBar(
-            title: Text("Müstakil Evler"),
+            title: Text("Kiralık Müstakil Evler"),
             centerTitle: true,
             background: Image.asset(
               "assets/images/diger_resimler/mustakilgenel.jpg",
@@ -37,13 +38,13 @@ class Mustakil extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Text(
-                      "Konya Sancak Mahallesinde Satılık Müstakil Ev",
+                      "Konya Sancak Mahallesinde Kiralık Müstakil Ev",
                       style: TextStyle(
                         fontSize: 10,
                       ),
                     ),
                     Text(
-                      "5+2 dublex villa \n50 metrekare kullanılabilir alan\n1.200.000 TL",
+                      "5+2 dublex villa \n50 metrekare kullanılabilir alan\n1.200 TL",
                       style: TextStyle(
                         fontSize: 9,
                       ),
@@ -53,10 +54,10 @@ class Mustakil extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => GorusmeTalebi()),
+                              builder: (context) => Mustakil1()),
                         );
                       },
-                      child: Text("Görüşme Talep Et"),
+                      child: Text("İNCELE"),
                     ),
                   ],
                 )
@@ -65,48 +66,6 @@ class Mustakil extends StatelessWidget {
           ),
           Container(
             color: Colors.amber[100],
-            alignment: Alignment.center,
-            height: 200,
-            child: Row(
-              children: [
-                Image.asset(
-                  "assets/images/mustakil_resim/mustakil3.jpg",
-                  height: 100,
-                  width: 100,
-                ),
-                Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    Text(
-                      "Konya Karatay Mahallesinde Satılık Müstakil Ev",
-                      style: TextStyle(
-                        fontSize: 10,
-                      ),
-                    ),
-                    Text(
-                      "7+2 triblex villa \n150 metrekare kullanılabilir alan\n1.500.000 TL",
-                      style: TextStyle(
-                        fontSize: 9,
-                      ),
-                    ),
-                    ElevatedButton(
-                      onPressed: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => GorusmeTalebi()),
-                        );
-                      },
-                      child: Text("Görüşme Talep Et"),
-                    ),
-                  ],
-                )
-              ],
-            ),
-          ),
-          Container(
-            color: Colors.amber[200],
             alignment: Alignment.center,
             height: 200,
             child: Row(
@@ -121,13 +80,13 @@ class Mustakil extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Text(
-                      "Konya Bosna Hersek'te Satılık Müstakil Ev",
+                      "Konya Karatay Mahallesinde Kiralık Müstakil Ev",
                       style: TextStyle(
                         fontSize: 10,
                       ),
                     ),
                     Text(
-                      "4+1 villa \n50 metrekare kullanılabilir alan\n1.000.000 TL",
+                      "7+2 triblex villa \n150 metrekare kullanılabilir alan\n1.500 TL",
                       style: TextStyle(
                         fontSize: 9,
                       ),
@@ -137,10 +96,52 @@ class Mustakil extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => GorusmeTalebi()),
+                              builder: (context) => Mustakil1()),
                         );
                       },
-                      child: Text("Görüşme Talep Et"),
+                      child: Text("İNCELE"),
+                    ),
+                  ],
+                )
+              ],
+            ),
+          ),
+          Container(
+            color: Colors.amber[200],
+            alignment: Alignment.center,
+            height: 200,
+            child: Row(
+              children: [
+                Image.asset(
+                  "assets/images/mustakil_resim/mustakil3.jpg",
+                  height: 100,
+                  width: 100,
+                ),
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Text(
+                      "Konya Bosna Hersek'te Kiralık Müstakil Ev",
+                      style: TextStyle(
+                        fontSize: 10,
+                      ),
+                    ),
+                    Text(
+                      "4+1 villa \n50 metrekare kullanılabilir alan\n1.000 TL",
+                      style: TextStyle(
+                        fontSize: 9,
+                      ),
+                    ),
+                    ElevatedButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => Mustakil1()),
+                        );
+                      },
+                      child: Text("İNCELE"),
                     ),
                   ],
                 )
@@ -163,13 +164,13 @@ class Mustakil extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Text(
-                      "Konya Meram Mahallesinde Satılık Müstakil Ev",
+                      "Konya Meram Mahallesinde Kiralık Müstakil Ev",
                       style: TextStyle(
                         fontSize: 10,
                       ),
                     ),
                     Text(
-                      "5+2 dublex villa \n100 metrekare kullanılabilir alan\n1.350.000 TL",
+                      "5+2 dublex villa \n100 metrekare kullanılabilir alan\n1.350 TL",
                       style: TextStyle(
                         fontSize: 9,
                       ),
@@ -179,10 +180,10 @@ class Mustakil extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => GorusmeTalebi()),
+                              builder: (context) => Mustakil1()),
                         );
                       },
-                      child: Text("Görüşme Talep Et"),
+                      child: Text("İNCELE"),
                     ),
                   ],
                 )
@@ -205,13 +206,13 @@ class Mustakil extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Text(
-                      "Konya Sancak Mahallesinde Satılık Müstakil Ev",
+                      "Konya Sancak Mahallesinde Kiralık Müstakil Ev",
                       style: TextStyle(
                         fontSize: 10,
                       ),
                     ),
                     Text(
-                      "5+2 dublex villa \n70 metrekare kullanılabilir alan\n1.400.000 TL",
+                      "5+2 dublex villa \n70 metrekare kullanılabilir alan\n1.400 TL",
                       style: TextStyle(
                         fontSize: 9,
                       ),
@@ -221,10 +222,10 @@ class Mustakil extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => GorusmeTalebi()),
+                              builder: (context) => Mustakil1()),
                         );
                       },
-                      child: Text("Görüşme Talep Et"),
+                      child: Text("İNCELE"),
                     ),
                   ],
                 )
